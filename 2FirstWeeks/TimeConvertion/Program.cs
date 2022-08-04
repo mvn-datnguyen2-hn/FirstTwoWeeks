@@ -13,9 +13,9 @@ namespace TimeConvertion
         {
             string timeConversion(string s)
             {
-                var amOrPm = s.Substring(8);
-                var hour = s.Substring(0, 2);
-                var minuteSecond = s.Substring(2, 6);
+                var amOrPm = s.Substring(8);// sáng hay chiều
+                var hour = s.Substring(0, 2);//mấy giờ
+                var minuteSecond = s.Substring(2, 6);//phút giây
                 if (amOrPm == "AM" && hour == "12")
                 {
                     hour = "00";
