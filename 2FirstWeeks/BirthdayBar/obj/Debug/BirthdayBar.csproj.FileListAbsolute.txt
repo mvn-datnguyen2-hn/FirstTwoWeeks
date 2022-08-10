@@ -1,8 +1,0 @@
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\BirthdayBar\bin\Debug\BirthdayBar.exe.config
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\BirthdayBar\bin\Debug\BirthdayBar.exe
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\BirthdayBar\bin\Debug\BirthdayBar.pdb
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\BirthdayBar\obj\Debug\BirthdayBar.csproj.AssemblyReference.cache
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\BirthdayBar\obj\Debug\BirthdayBar.csproj.SuggestedBindingRedirects.cache
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\BirthdayBar\obj\Debug\BirthdayBar.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\BirthdayBar\obj\Debug\BirthdayBar.exe
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\BirthdayBar\obj\Debug\BirthdayBar.pdb

@@ -1,8 +1,0 @@
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\AppleOrange\bin\Debug\AppleOrange.exe.config
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\AppleOrange\bin\Debug\AppleOrange.exe
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\AppleOrange\bin\Debug\AppleOrange.pdb
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\AppleOrange\obj\Debug\AppleOrange.csproj.AssemblyReference.cache
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\AppleOrange\obj\Debug\AppleOrange.csproj.SuggestedBindingRedirects.cache
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\AppleOrange\obj\Debug\AppleOrange.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\AppleOrange\obj\Debug\AppleOrange.exe
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\AppleOrange\obj\Debug\AppleOrange.pdb
