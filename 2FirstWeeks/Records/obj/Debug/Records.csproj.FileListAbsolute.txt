@@ -1,8 +1,0 @@
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\Records\bin\Debug\Records.exe.config
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\Records\bin\Debug\Records.exe
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\Records\bin\Debug\Records.pdb
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\Records\obj\Debug\Records.csproj.AssemblyReference.cache
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\Records\obj\Debug\Records.csproj.SuggestedBindingRedirects.cache
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\Records\obj\Debug\Records.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\Records\obj\Debug\Records.exe
-C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\Records\obj\Debug\Records.pdb
