@@ -1,0 +1,8 @@
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\VeryBigSum\bin\Debug\VeryBigSum.exe.config
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\VeryBigSum\bin\Debug\VeryBigSum.exe
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\VeryBigSum\bin\Debug\VeryBigSum.pdb
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\VeryBigSum\obj\Debug\VeryBigSum.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\VeryBigSum\obj\Debug\VeryBigSum.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\VeryBigSum\obj\Debug\VeryBigSum.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\VeryBigSum\obj\Debug\VeryBigSum.exe
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\VeryBigSum\obj\Debug\VeryBigSum.pdb

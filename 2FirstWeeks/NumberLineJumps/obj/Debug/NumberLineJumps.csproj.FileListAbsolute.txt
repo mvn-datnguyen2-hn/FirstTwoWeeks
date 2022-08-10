@@ -1,0 +1,8 @@
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\NumberLineJumps\bin\Debug\NumberLineJumps.exe.config
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\NumberLineJumps\bin\Debug\NumberLineJumps.exe
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\NumberLineJumps\bin\Debug\NumberLineJumps.pdb
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\NumberLineJumps\obj\Debug\NumberLineJumps.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\NumberLineJumps\obj\Debug\NumberLineJumps.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\NumberLineJumps\obj\Debug\NumberLineJumps.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\NumberLineJumps\obj\Debug\NumberLineJumps.exe
+C:\Users\Admin\Desktop\Intern\FirstTwoWeeks\2FirstWeeks\NumberLineJumps\obj\Debug\NumberLineJumps.pdb
