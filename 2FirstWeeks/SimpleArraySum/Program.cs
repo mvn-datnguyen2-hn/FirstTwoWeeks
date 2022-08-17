@@ -8,17 +8,18 @@ namespace SimpleArraySum
 {
     internal class Program
     {
+        private static int simpleArraySum(int n, List<int> arr)
+        {
+            int Sum = 0;
+            for (int i = 0; i < n; i++)
+            {
+                Sum += arr[i];
+            }
+            return Sum;
+        }
         static void Main(string[] args)
         {
-            int simpleArraySum(int n, List<int> arr)
-            {
-                int Sum = 0;
-                for (int i = 0; i < n; i++)
-                {
-                    Sum += arr[i];
-                }
-                return Sum;
-            }
+            
             int arCount = Convert.ToInt32(Console.ReadLine().Trim());
 
             List<int> ar = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt32(arTemp)).ToList();
