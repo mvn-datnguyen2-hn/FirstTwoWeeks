@@ -12,27 +12,14 @@ namespace MinMaxSum
         {
             List<int> ar = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
-            long Max = 0;
-            long Min = 0;
-            if (ar.Min() != ar.Max())
-            {
-                for (int i = 1; i < ar.Count; i++)
-                {
-                    Min = Max += ar.Min();
-                }
-            }
+
+            long result = 0;
             for (int i = 0; i < ar.Count; i++)
             {
-                if (ar[i] != ar.Min())
-                {
-                    Max += ar[i];
-                }
-                if (ar[i] != ar.Max())
-                {
-                    Min += ar[i];
-                }
+                result += ar[i];
             }
-            Console.Write(Min + " " + Max);
+
+            Console.Write("{0} {1}", result - ar.Max(), result - ar.Min());
         }
     }
 }
