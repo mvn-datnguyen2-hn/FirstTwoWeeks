@@ -8,32 +8,16 @@ namespace AppleOrange
 {
     internal class Program
     {
+        private static void countApplesAndOranges(int s, int t, int a, int b, List<int> apples, List<int> oranges)
+        {
+            int appleCount = apples.Where(c => c + a >= s && c + a <= t).Count();
+            int orangeCount = oranges.Where(c => c + b >= s && c + b <= t).Count();
+            Console.WriteLine(appleCount);
+            Console.Write(orangeCount);
+        }
         static void Main(string[] args)
         {
-              void countApplesAndOranges(int s, int t, int a, int b, List<int> apples, List<int> oranges)
-            {
-                int appleCount = 0;
-                int orangeCount = 0;
-                //s là điểm đầu của ngôi nhà t là điểm cuối
-                //a là vị trí cây táo,b là vị trí cây cam/
-                
-                for (int i = 0; i < apples.Count; i++)
-                {
-                    if ((a + apples[i]) >= s && (a + apples[i]) <= t)
-                    {
-                        appleCount++;
-                    }
-                }
-                for (int i = 0; i < oranges.Count; i++)
-                {
-                    if ((b + oranges[i]) >= s && (b + oranges[i]) <= t)
-                    {
-                        orangeCount++;
-                    }
-                }
-                Console.WriteLine(appleCount);
-                Console.Write(orangeCount);
-            }
+              
               string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
 
               int s1 = Convert.ToInt32(firstMultipleInput[0]);
