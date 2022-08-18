@@ -26,20 +26,19 @@ namespace Grading
         }
         static void Main(string[] args)
         {
-              
-              int gradesCount = Convert.ToInt32(Console.ReadLine().Trim());
 
-              List<int> grades = new List<int>();
+            int gradesCount = Convert.ToInt32(Console.ReadLine().Trim());
 
-              for (int i = 0; i < gradesCount; i++)
-              {
-                  int gradesItem = Convert.ToInt32(Console.ReadLine().Trim());
-                  grades.Add(gradesItem);
-              }
+            List<int> grades = new List<int>();
 
-              List<int> result = GradingStudents(grades);
-            Console.WriteLine("-----------------------");
-              Console.WriteLine(String.Join("\n", result));
+            for (int i = 0; i < gradesCount; i++)
+            {
+                int gradesItem = Convert.ToInt32(Console.ReadLine().Trim());
+                grades.Add(gradesItem);
+            }
+
+            List<int> result = GradingStudents(grades);
+            Console.WriteLine(String.Join("\n", result));
         }
     }
 }
