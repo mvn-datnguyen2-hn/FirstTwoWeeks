@@ -8,51 +8,47 @@ namespace BirthdayBar
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static int BirthDay(List<int> s, int d, int m)
         {
-            int BirthDay(List<int> s, int d, int m)
+            int count = 0;
+            for (int i = 0; i < s.Count; i++)
             {
-                int count = 0;
-                for (int i = 0; i < s.Count; i++)
+                int a = 0;
+                for (int j = 0; j < m; j++)
                 {
-                    int a = 0;
-                    for (int j = 0; j < m; j++)
+                    a += s[i];
+                    i++;
+                }
+                if (a == d)
+                {
+                    count++;
+                }
+                for (int k = 0; k < m; k++)
+                {
+                    if (i != s.Count)
                     {
-                        a += s[i];
-                        i++;
-                        
-
-                        
-                    }
-                    if (a == d)
-                    {
-                        count++;
-
-                    }
-                    for (int k = 0; k < m; k++)
-                    {
-                        if (i != s.Count)
-                        {
-                            i--;
-                        }
+                        i--;
                     }
                 }
-                return count;
-
             }
-              int n = Convert.ToInt32(Console.ReadLine().Trim());
+            return count;
+        }
+        static void Main(string[] args)
+        {
 
-              List<int> s1 = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(sTemp => Convert.ToInt32(sTemp)).ToList();
+            int n = Convert.ToInt32(Console.ReadLine().Trim());
 
-              string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
+            List<int> s1 = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(sTemp => Convert.ToInt32(sTemp)).ToList();
 
-              int d1 = Convert.ToInt32(firstMultipleInput[0]);
+            string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
 
-              int m1 = Convert.ToInt32(firstMultipleInput[1]);
+            int d1 = Convert.ToInt32(firstMultipleInput[0]);
 
-              int result = BirthDay(s1, d1, m1);
+            int m1 = Convert.ToInt32(firstMultipleInput[1]);
 
-              Console.WriteLine(result);
+            int result = BirthDay(s1, d1, m1);
+
+            Console.WriteLine(result);
         }
     }
 }
