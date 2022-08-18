@@ -11,29 +11,19 @@ namespace CompareTheTriplets
     {
         public static List<int> compareTriplets(List<int> a, List<int> b)
         {
-            int alicePoint = 0;
-            int bobPoint = 0;
-            List<int> result = new List<int>();
-            Hashtable alice = new Hashtable();
-            Hashtable bob = new Hashtable();
+            List<int> result = new List<int>(){0,0};
             for (int i = 0; i < a.Count; i++)
             {
-                alice.Add($"{i}", a[i]);
-                bob.Add($"{i}", b[i]);
-                if (Convert.ToInt32(alice[$"{i}"]) > Convert.ToInt32(bob[$"{i}"]))
+                if (a[i] > b[i])
                 {
-                    alicePoint += 1;
+                    result[0]++;
                 }
-                if (Convert.ToInt32(alice[$"{i}"]) < Convert.ToInt32(bob[$"{i}"]))
+                else if (a[i] < b[i])
                 {
-                    bobPoint += 1;
+                    result[1]++;
                 }
             }
-            result.Add(alicePoint);
-            result.Add(bobPoint);
             return result;
-
-
         }
         static void Main(string[] args)
         {
