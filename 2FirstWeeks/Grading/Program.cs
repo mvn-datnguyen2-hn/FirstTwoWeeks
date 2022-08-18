@@ -8,38 +8,25 @@ namespace Grading
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static List<int> GradingStudents(List<int> grade)
         {
-              List<int> GradingStudents(List<int> grade)
+            for (int i = 0; i < grade.Count; i++)
             {
-                for (int i = 0; i < grade.Count; i++)
+                int item = grade[i];
+                if (item >= 38)
                 {
-                    if (grade[i] != 100 && grade[i] >= 38)
+                    int diff = 5 - (item % 5);
+                    if (diff < 3)
                     {
-                        if (grade[i] == 38)
-                        {
-                            grade[i] += 2;
-                        }
-                        if (grade[i] > 38)
-                        {
-                            int a = Convert.ToInt32(grade[i].ToString().Substring(0, 1));
-                            int b = Convert.ToInt32(grade[i].ToString().Substring(1, 1));
-                            if (b > 2 && b < 5)
-                            {
-                                b = 5;
-                                grade[i] = Convert.ToInt32(a.ToString() + b.ToString());
-                            }
-                            if (b > 7)
-                            {
-                                a += 1;
-                                b = 0;
-                                grade[i] = Convert.ToInt32(a.ToString() + b.ToString());
-                            }
-                        }
+                        grade[i] = item + diff;
                     }
                 }
-                return grade;
             }
+            return grade;
+        }
+        static void Main(string[] args)
+        {
+              
               int gradesCount = Convert.ToInt32(Console.ReadLine().Trim());
 
               List<int> grades = new List<int>();
